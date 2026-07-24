@@ -1,0 +1,16 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.claimsforce.com/iso-iec-27001-zertifikat
+standards:
+- id: iso-iec-27001
+  conforms: true
+  version: '2022'
+  certifying_body: TUV Rheinland
+  certificate_number: 01 153 1900524
+  first_certified: '2019'
+  certified: '2025-09-26'
+  valid_until: '2028-09-25'
+  evidence: Published ISO/IEC 27001:2022 certificate (TUV Rheinland) on the claimsforce site; supersedes the 2022-certified ISO/IEC 27001:2013 certificate (same certificate number, valid until 2025-09-25).
+- id: gdpr
+  conforms: true
+  evidence: Datenschutzerklaerung (privacy policy) at https://www.claimsforce.com/datenschutz describes consent-based processing of personal data under EU/German data-protection law; claimsforce GmbH is Hamburg, Germany based.

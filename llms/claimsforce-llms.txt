@@ -1,0 +1,24 @@
+# claimsforce
+
+> claimsforce GmbH is a Hamburg-based insurtech building AI-powered software for property and casualty claims management and underwriting. Its platform helps insurers, loss-adjusting and expert organizations, and independent adjusters digitize the end-to-end claims process. claimsforce is a private, login-only SaaS product with no public API or developer portal at this time; this profile is a company record in the API Evangelist network.
+
+## Company
+- Website: https://www.claimsforce.com
+- About: https://www.claimsforce.com (Insurers, Adjuster/Expert organizations, Independent adjusters, Underwriting/Risk Management sections)
+- Login: https://web.claimsforce.com/login
+
+## Products
+- Claims management for insurers (automated report and calculation generation, real-time claims analytics)
+- Software for claims-adjuster and expert organizations (disposition planning, route/workload optimization)
+- Tools for independent adjusters and experts (video-based remote case assessment)
+- Underwriting and risk management
+
+## Trust & Compliance
+- ISO/IEC 27001:2022 certificate (TUV Rheinland): https://www.claimsforce.com/iso-iec-27001-zertifikat
+- Privacy policy (GDPR): https://www.claimsforce.com/datenschutz
+- Imprint: https://www.claimsforce.com/impressum
+- Disclaimer: https://www.claimsforce.com/haftungsausschluss
+
+## Notes
+- No public REST/GraphQL/AsyncAPI specification, SDKs, MCP server, or webhook catalog is published as of 2026-07-18.
+- Backed by Point Nine.

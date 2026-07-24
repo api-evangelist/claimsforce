@@ -1,7 +1,26 @@
 aid: claimsforce
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/claimsforce.png
 name: claimsforce
-description: claimsforce is a company surfaced as a portfolio company of point-nine and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: claimsforce GmbH is a Hamburg-based insurtech building AI-powered software for property
+  and casualty claims management and underwriting. Its platform helps insurers, loss-adjusting and
+  expert organizations, and independent adjusters digitize the end-to-end claims process - automating
+  report and calculation generation, enabling video-based remote case assessment, optimizing adjuster
+  disposition and route planning to cut travel time, and surfacing real-time analytics for claims
+  handling and risk management. Named customers include Zurich Gruppe Deutschland, HanseMerkur,
+  Concordia, Crawford, Sedgwick and Die Regulierer. The product is a private, login-only SaaS with no
+  public API or developer portal as of July 2026. The company is ISO/IEC 27001:2022 certified (TUV
+  Rheinland) and backed by Point Nine.
 url: https://raw.githubusercontent.com/api-evangelist/claimsforce/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Insurance
+- Insurtech
+- Claims Management
+- Underwriting
+- Risk Management
+- SaaS
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/claimsforce-domain-security.yml
+- type: Conformance
+  url: conformance/claimsforce-conformance.yml
+- type: Compliance
+  url: https://www.claimsforce.com/iso-iec-27001-zertifikat
+- type: LLMsTxt
+  url: llms/claimsforce-llms.txt
+- type: PrivacyPolicy
+  url: https://www.claimsforce.com/datenschutz
+- type: Login
+  url: https://web.claimsforce.com/login
 - type: Website
   url: https://www.claimsforce.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
